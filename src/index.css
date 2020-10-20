@@ -35,7 +35,7 @@ body::-webkit-scrollbar-track{
   background: #1e1e24;
 }
 
-body::::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb{
   background: #6649b8;
 }
 
@@ -49,6 +49,7 @@ body::::-webkit-scrollbar-thumb{
   height: 100vh;
   position: fixed;
   background-color: var(--bg-primary);
+  padding: 1rem;
 }
 
 .navbar-nav{
@@ -62,4 +63,29 @@ body::::-webkit-scrollbar-thumb{
 
 .navitem{
   width: 100%;
+}
+
+.navlink{
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.linktext{
+  display: none;
+  margin-left: 1rem;
+}
+
+.navbar .icon{
+  min-width: 2rem;
+  margin: 0 1.5rem;
+}
+
+.navbar:hover{
+  width: 16rem;
+}
+.navbar:hover .linktext{
+  display: block;
 }

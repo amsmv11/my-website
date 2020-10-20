@@ -11,32 +11,32 @@ function App() {
     <div className="App">
       <NavBar>
         
-        <RightArrowIcon></RightArrowIcon>
+        {/* <RightArrowIcon className="icon"></RightArrowIcon> */}
         
         
         <NavItem>
-          <PersonalCardIcon></PersonalCardIcon>
+          <PersonalCardIcon className="icon"></PersonalCardIcon>
   
           <NavLink href="#" text="valor1"></NavLink>
         </NavItem>
         
 
         <NavItem>
-          <TasksIcon></TasksIcon>
+          <TasksIcon className="icon"></TasksIcon>
 
           <NavLink href="#" text="valor2"></NavLink>
         </NavItem>
         
         
         <NavItem>
-          <CrowIcon></CrowIcon>
+          <CrowIcon className="icon"></CrowIcon>
         
           <NavLink href="#" text="valor3"></NavLink>
         </NavItem>
       
 
         <NavItem>
-          <FeatherIcon></FeatherIcon>
+          <FeatherIcon className="icon"></FeatherIcon>
         
           <NavLink href="#" text="valor4"></NavLink>
         </NavItem>
