@@ -14,7 +14,6 @@ body{
 ul {
     list-style-type: none;
     padding: 0;
-
 }
 
 
@@ -41,4 +40,10 @@ canvas{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link{
+    box-shadow: seagreen;
 }
